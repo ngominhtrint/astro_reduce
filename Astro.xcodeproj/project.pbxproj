@@ -26,6 +26,21 @@
 		EB31C3151FA8221800D70A84 /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31C3141FA8221800D70A84 /* CoreDataStore.swift */; };
 		EB31C3191FA82CB200D70A84 /* TabbarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31C3181FA82CB200D70A84 /* TabbarProtocols.swift */; };
 		EB31C31C1FA82CFA00D70A84 /* TabbarWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31C31B1FA82CFA00D70A84 /* TabbarWireframe.swift */; };
+		EB31C3201FA830B600D70A84 /* ChannelListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31C31F1FA830B600D70A84 /* ChannelListProtocols.swift */; };
+		EB4AF04B1FA86BE9001B73D1 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AF04A1FA86BE9001B73D1 /* ResponseModel.swift */; };
+		EB4AF0511FA87022001B73D1 /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AF04F1FA87022001B73D1 /* GuideView.swift */; };
+		EB4AF0521FA87022001B73D1 /* GuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB4AF0501FA87022001B73D1 /* GuideView.xib */; };
+		EB4AF0551FA87060001B73D1 /* GuideWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AF0541FA87060001B73D1 /* GuideWireframe.swift */; };
+		EB4AF0571FA870D9001B73D1 /* GuideProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AF0561FA870D9001B73D1 /* GuideProtocols.swift */; };
+		EBD01B371FA844C8008C50EC /* ChannelListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD01B351FA844C8008C50EC /* ChannelListCell.swift */; };
+		EBD01B381FA844C8008C50EC /* ChannelListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBD01B361FA844C8008C50EC /* ChannelListCell.xib */; };
+		EBD01B3B1FA848A7008C50EC /* ChannelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD01B391FA848A7008C50EC /* ChannelListView.swift */; };
+		EBD01B3C1FA848A7008C50EC /* ChannelListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBD01B3A1FA848A7008C50EC /* ChannelListView.xib */; };
+		EBD01B3F1FA84B3F008C50EC /* ChannelListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD01B3E1FA84B3F008C50EC /* ChannelListPresenter.swift */; };
+		EBD01B421FA84BFF008C50EC /* ChannelListWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD01B411FA84BFF008C50EC /* ChannelListWireframe.swift */; };
+		EBD01B451FA84FA8008C50EC /* ChannelListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD01B441FA84FA8008C50EC /* ChannelListInteractor.swift */; };
+		EBD01B491FA85255008C50EC /* ChannelListLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD01B481FA85255008C50EC /* ChannelListLocalDataManager.swift */; };
+		EBD01B4C1FA85401008C50EC /* ChannelListRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD01B4B1FA85401008C50EC /* ChannelListRemoteDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +90,21 @@
 		EB31C3141FA8221800D70A84 /* CoreDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStore.swift; sourceTree = "<group>"; };
 		EB31C3181FA82CB200D70A84 /* TabbarProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarProtocols.swift; sourceTree = "<group>"; };
 		EB31C31B1FA82CFA00D70A84 /* TabbarWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarWireframe.swift; sourceTree = "<group>"; };
+		EB31C31F1FA830B600D70A84 /* ChannelListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListProtocols.swift; sourceTree = "<group>"; };
+		EB4AF04A1FA86BE9001B73D1 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		EB4AF04F1FA87022001B73D1 /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
+		EB4AF0501FA87022001B73D1 /* GuideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuideView.xib; sourceTree = "<group>"; };
+		EB4AF0541FA87060001B73D1 /* GuideWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideWireframe.swift; sourceTree = "<group>"; };
+		EB4AF0561FA870D9001B73D1 /* GuideProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideProtocols.swift; sourceTree = "<group>"; };
+		EBD01B351FA844C8008C50EC /* ChannelListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListCell.swift; sourceTree = "<group>"; };
+		EBD01B361FA844C8008C50EC /* ChannelListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChannelListCell.xib; sourceTree = "<group>"; };
+		EBD01B391FA848A7008C50EC /* ChannelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListView.swift; sourceTree = "<group>"; };
+		EBD01B3A1FA848A7008C50EC /* ChannelListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChannelListView.xib; sourceTree = "<group>"; };
+		EBD01B3E1FA84B3F008C50EC /* ChannelListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListPresenter.swift; sourceTree = "<group>"; };
+		EBD01B411FA84BFF008C50EC /* ChannelListWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListWireframe.swift; sourceTree = "<group>"; };
+		EBD01B441FA84FA8008C50EC /* ChannelListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListInteractor.swift; sourceTree = "<group>"; };
+		EBD01B481FA85255008C50EC /* ChannelListLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListLocalDataManager.swift; sourceTree = "<group>"; };
+		EBD01B4B1FA85401008C50EC /* ChannelListRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListRemoteDataManager.swift; sourceTree = "<group>"; };
 		EE009D3C7980778883295819 /* Pods-AstroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstroUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AstroUITests/Pods-AstroUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FDD0E2ED5E5215A5E2AB4DC7 /* Pods-AstroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstroTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AstroTests/Pods-AstroTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,6 +179,7 @@
 				EB31C3021FA8191500D70A84 /* Common */,
 				EB31C3031FA8192200D70A84 /* Entities */,
 				EB31C31D1FA82F9D00D70A84 /* ChannelList */,
+				EB4AF04C1FA86FAB001B73D1 /* Guide */,
 				EB31C3161FA82C8D00D70A84 /* Tabbar */,
 				EB31C2D41FA80C5800D70A84 /* AppDelegate.swift */,
 				EB31C3141FA8221800D70A84 /* CoreDataStore.swift */,
@@ -194,6 +225,7 @@
 				EB31C30E1FA81EBC00D70A84 /* Channel.swift */,
 				EB31C3101FA81F9E00D70A84 /* Channel+CoreDataProperties.swift */,
 				EB31C3121FA81FF600D70A84 /* ChannelModel.swift */,
+				EB4AF04A1FA86BE9001B73D1 /* ResponseModel.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -226,6 +258,11 @@
 		EB31C31D1FA82F9D00D70A84 /* ChannelList */ = {
 			isa = PBXGroup;
 			children = (
+				EBD01B461FA85231008C50EC /* DataManager */,
+				EBD01B431FA84F8D008C50EC /* Interactor */,
+				EBD01B401FA84BE9008C50EC /* Wireframe */,
+				EBD01B3D1FA84AF7008C50EC /* Presenter */,
+				EBD01B341FA8449C008C50EC /* Views */,
 				EB31C31E1FA82FB800D70A84 /* Protocols */,
 			);
 			path = ChannelList;
@@ -234,8 +271,104 @@
 		EB31C31E1FA82FB800D70A84 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				EB31C31F1FA830B600D70A84 /* ChannelListProtocols.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		EB4AF04C1FA86FAB001B73D1 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AF0531FA8704C001B73D1 /* Wireframe */,
+				EB4AF04E1FA87006001B73D1 /* Views */,
+				EB4AF04D1FA86FCD001B73D1 /* Protocols */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		EB4AF04D1FA86FCD001B73D1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AF0561FA870D9001B73D1 /* GuideProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		EB4AF04E1FA87006001B73D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AF04F1FA87022001B73D1 /* GuideView.swift */,
+				EB4AF0501FA87022001B73D1 /* GuideView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EB4AF0531FA8704C001B73D1 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AF0541FA87060001B73D1 /* GuideWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		EBD01B341FA8449C008C50EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EBD01B351FA844C8008C50EC /* ChannelListCell.swift */,
+				EBD01B361FA844C8008C50EC /* ChannelListCell.xib */,
+				EBD01B391FA848A7008C50EC /* ChannelListView.swift */,
+				EBD01B3A1FA848A7008C50EC /* ChannelListView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EBD01B3D1FA84AF7008C50EC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EBD01B3E1FA84B3F008C50EC /* ChannelListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EBD01B401FA84BE9008C50EC /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				EBD01B411FA84BFF008C50EC /* ChannelListWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		EBD01B431FA84F8D008C50EC /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				EBD01B441FA84FA8008C50EC /* ChannelListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		EBD01B461FA85231008C50EC /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				EBD01B4A1FA853E7008C50EC /* Remote */,
+				EBD01B471FA8523D008C50EC /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		EBD01B471FA8523D008C50EC /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				EBD01B481FA85255008C50EC /* ChannelListLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		EBD01B4A1FA853E7008C50EC /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				EBD01B4B1FA85401008C50EC /* ChannelListRemoteDataManager.swift */,
+			);
+			path = Remote;
 			sourceTree = "<group>";
 		};
 		FC3A74EFD042451A980F49CC /* Frameworks */ = {
@@ -366,8 +499,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB31C2DF1FA80C5800D70A84 /* LaunchScreen.storyboard in Resources */,
+				EBD01B381FA844C8008C50EC /* ChannelListCell.xib in Resources */,
 				EB31C2DC1FA80C5800D70A84 /* Assets.xcassets in Resources */,
+				EB4AF0521FA87022001B73D1 /* GuideView.xib in Resources */,
 				EB31C2DA1FA80C5800D70A84 /* Main.storyboard in Resources */,
+				EBD01B3C1FA848A7008C50EC /* ChannelListView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,15 +667,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB31C31C1FA82CFA00D70A84 /* TabbarWireframe.swift in Sources */,
+				EB31C3201FA830B600D70A84 /* ChannelListProtocols.swift in Sources */,
+				EBD01B3B1FA848A7008C50EC /* ChannelListView.swift in Sources */,
 				EB31C3151FA8221800D70A84 /* CoreDataStore.swift in Sources */,
 				EB31C30B1FA81D7300D70A84 /* PersistenceError.swift in Sources */,
 				EB31C30F1FA81EBC00D70A84 /* Channel.swift in Sources */,
+				EBD01B491FA85255008C50EC /* ChannelListLocalDataManager.swift in Sources */,
+				EBD01B451FA84FA8008C50EC /* ChannelListInteractor.swift in Sources */,
+				EBD01B371FA844C8008C50EC /* ChannelListCell.swift in Sources */,
+				EBD01B4C1FA85401008C50EC /* ChannelListRemoteDataManager.swift in Sources */,
 				EB31C3091FA81C8900D70A84 /* Astro.xcdatamodeld in Sources */,
 				EB31C2D51FA80C5800D70A84 /* AppDelegate.swift in Sources */,
+				EBD01B421FA84BFF008C50EC /* ChannelListWireframe.swift in Sources */,
 				EB31C3111FA81F9E00D70A84 /* Channel+CoreDataProperties.swift in Sources */,
+				EB4AF0551FA87060001B73D1 /* GuideWireframe.swift in Sources */,
 				EB31C30D1FA81D9000D70A84 /* Endpoints.swift in Sources */,
 				EB31C3191FA82CB200D70A84 /* TabbarProtocols.swift in Sources */,
+				EBD01B3F1FA84B3F008C50EC /* ChannelListPresenter.swift in Sources */,
+				EB4AF0571FA870D9001B73D1 /* GuideProtocols.swift in Sources */,
 				EB31C3131FA81FF600D70A84 /* ChannelModel.swift in Sources */,
+				EB4AF04B1FA86BE9001B73D1 /* ResponseModel.swift in Sources */,
+				EB4AF0511FA87022001B73D1 /* GuideView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChannelListCell" rowHeight="148" id="KGk-i7-Jjw" customClass="ChannelListCell" customModule="Astro" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="148"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="147.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0gb-R9-35t">
+                        <rect key="frame" x="8" y="11.5" width="128" height="128"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="128" id="AvL-fr-CNU"/>
+                            <constraint firstAttribute="width" constant="128" id="mkt-cv-mXl"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xdd-t6-hPh">
+                        <rect key="frame" x="259" y="29.5" width="45" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Channel number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IUb-MY-lu8">
+                        <rect key="frame" x="177.5" y="58.5" width="126.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eO8-yc-6PH">
+                        <rect key="frame" x="268" y="87.5" width="44" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="3YL-Mu-F1w"/>
+                            <constraint firstAttribute="width" constant="44" id="ZOq-Zm-tQj"/>
+                        </constraints>
+                        <state key="normal" image="like"/>
+                        <connections>
+                            <action selector="onFavoriteAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="cEa-1c-Rr6"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="Xdd-t6-hPh" secondAttribute="trailing" constant="8" id="1PV-fj-hxq"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="0gb-R9-35t" secondAttribute="bottom" id="Gxz-TD-sl2"/>
+                    <constraint firstItem="IUb-MY-lu8" firstAttribute="top" secondItem="Xdd-t6-hPh" secondAttribute="bottom" constant="8" id="M5D-Rq-g4z"/>
+                    <constraint firstItem="0gb-R9-35t" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="NSP-Sr-qWf"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="eO8-yc-6PH" secondAttribute="bottom" constant="8" id="UfL-I4-p8I"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="IUb-MY-lu8" secondAttribute="trailing" constant="8" id="gZR-R8-mHh"/>
+                    <constraint firstItem="eO8-yc-6PH" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="hD1-Km-4mD"/>
+                    <constraint firstItem="eO8-yc-6PH" firstAttribute="top" secondItem="IUb-MY-lu8" secondAttribute="bottom" constant="8" id="kyB-iK-Fue"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="likeButton" destination="eO8-yc-6PH" id="oHN-rW-Eya"/>
+                <outlet property="logoImageView" destination="0gb-R9-35t" id="j6m-RR-1lF"/>
+                <outlet property="nameLabel" destination="Xdd-t6-hPh" id="ZiE-fF-0cZ"/>
+                <outlet property="numberLabel" destination="IUb-MY-lu8" id="wx8-Mq-bBS"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="74"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="like" width="64" height="64"/>
+    </resources>
+</document>

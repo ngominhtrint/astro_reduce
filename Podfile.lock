@@ -1,5 +1,7 @@
 PODS:
   - Alamofire (4.5.1)
+  - AlamofireImage (3.3.0):
+    - Alamofire (~> 4.5)
   - AlamofireObjectMapper (5.0.0):
     - Alamofire (~> 4.1)
     - ObjectMapper (~> 3.0)
@@ -16,6 +18,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 4.5)
+  - AlamofireImage (~> 3.3)
   - AlamofireObjectMapper (~> 5.0)
   - G3GridView
   - RxBlocking (~> 4.0)
@@ -26,6 +29,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
   AlamofireObjectMapper: 5fafc816351cbbc0d486611aaeba7461c0cbad49
   G3GridView: 75bc079688f831118d15457ea5abec7d420bb172
   ObjectMapper: 92230db59bf8f341a5c3a3cf0b9fbdde3cf0d87f
@@ -35,6 +39,6 @@ SPEC CHECKSUMS:
   RxTest: 0041e792cede35e53e4749f378d21482af0e9d12
   SVProgressHUD: db27c54e6e18bc903341661fc9feb55e04905cc4
 
-PODFILE CHECKSUM: 5893374c3f6a8c297ad2fa85f0712c989f729100
+PODFILE CHECKSUM: 96d13269357edcf2bb916d445a8a37b4291446ee
 
 COCOAPODS: 1.2.1
