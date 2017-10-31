@@ -32,6 +32,8 @@
 		EB4AF0521FA87022001B73D1 /* GuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB4AF0501FA87022001B73D1 /* GuideView.xib */; };
 		EB4AF0551FA87060001B73D1 /* GuideWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AF0541FA87060001B73D1 /* GuideWireframe.swift */; };
 		EB4AF0571FA870D9001B73D1 /* GuideProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AF0561FA870D9001B73D1 /* GuideProtocols.swift */; };
+		EB4AF05A1FA8773B001B73D1 /* ChannelListWireframeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AF0591FA8773B001B73D1 /* ChannelListWireframeTests.swift */; };
+		EB4AF05D1FA87B30001B73D1 /* GuideWireframeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AF05C1FA87B30001B73D1 /* GuideWireframeTests.swift */; };
 		EBD01B371FA844C8008C50EC /* ChannelListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD01B351FA844C8008C50EC /* ChannelListCell.swift */; };
 		EBD01B381FA844C8008C50EC /* ChannelListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBD01B361FA844C8008C50EC /* ChannelListCell.xib */; };
 		EBD01B3B1FA848A7008C50EC /* ChannelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD01B391FA848A7008C50EC /* ChannelListView.swift */; };
@@ -96,6 +98,8 @@
 		EB4AF0501FA87022001B73D1 /* GuideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuideView.xib; sourceTree = "<group>"; };
 		EB4AF0541FA87060001B73D1 /* GuideWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideWireframe.swift; sourceTree = "<group>"; };
 		EB4AF0561FA870D9001B73D1 /* GuideProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideProtocols.swift; sourceTree = "<group>"; };
+		EB4AF0591FA8773B001B73D1 /* ChannelListWireframeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListWireframeTests.swift; sourceTree = "<group>"; };
+		EB4AF05C1FA87B30001B73D1 /* GuideWireframeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideWireframeTests.swift; sourceTree = "<group>"; };
 		EBD01B351FA844C8008C50EC /* ChannelListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListCell.swift; sourceTree = "<group>"; };
 		EBD01B361FA844C8008C50EC /* ChannelListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChannelListCell.xib; sourceTree = "<group>"; };
 		EBD01B391FA848A7008C50EC /* ChannelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListView.swift; sourceTree = "<group>"; };
@@ -179,7 +183,7 @@
 				EB31C3021FA8191500D70A84 /* Common */,
 				EB31C3031FA8192200D70A84 /* Entities */,
 				EB31C31D1FA82F9D00D70A84 /* ChannelList */,
-				EB4AF04C1FA86FAB001B73D1 /* Guide */,
+				EB4AF04C1FA86FAB001B73D1 /* TvGuide */,
 				EB31C3161FA82C8D00D70A84 /* Tabbar */,
 				EB31C2D41FA80C5800D70A84 /* AppDelegate.swift */,
 				EB31C3141FA8221800D70A84 /* CoreDataStore.swift */,
@@ -195,6 +199,8 @@
 		EB31C2E81FA80C5900D70A84 /* AstroTests */ = {
 			isa = PBXGroup;
 			children = (
+				EB4AF05B1FA87B11001B73D1 /* TvGuide */,
+				EB4AF0581FA87724001B73D1 /* ChannelList */,
 				EB31C2E91FA80C5900D70A84 /* AstroTests.swift */,
 				EB31C2EB1FA80C5900D70A84 /* Info.plist */,
 			);
@@ -276,14 +282,14 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
-		EB4AF04C1FA86FAB001B73D1 /* Guide */ = {
+		EB4AF04C1FA86FAB001B73D1 /* TvGuide */ = {
 			isa = PBXGroup;
 			children = (
 				EB4AF0531FA8704C001B73D1 /* Wireframe */,
 				EB4AF04E1FA87006001B73D1 /* Views */,
 				EB4AF04D1FA86FCD001B73D1 /* Protocols */,
 			);
-			path = Guide;
+			path = TvGuide;
 			sourceTree = "<group>";
 		};
 		EB4AF04D1FA86FCD001B73D1 /* Protocols */ = {
@@ -309,6 +315,22 @@
 				EB4AF0541FA87060001B73D1 /* GuideWireframe.swift */,
 			);
 			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		EB4AF0581FA87724001B73D1 /* ChannelList */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AF0591FA8773B001B73D1 /* ChannelListWireframeTests.swift */,
+			);
+			path = ChannelList;
+			sourceTree = "<group>";
+		};
+		EB4AF05B1FA87B11001B73D1 /* TvGuide */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AF05C1FA87B30001B73D1 /* GuideWireframeTests.swift */,
+			);
+			path = TvGuide;
 			sourceTree = "<group>";
 		};
 		EBD01B341FA8449C008C50EC /* Views */ = {
@@ -695,6 +717,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB4AF05A1FA8773B001B73D1 /* ChannelListWireframeTests.swift in Sources */,
+				EB4AF05D1FA87B30001B73D1 /* GuideWireframeTests.swift in Sources */,
 				EB31C2EA1FA80C5900D70A84 /* AstroTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

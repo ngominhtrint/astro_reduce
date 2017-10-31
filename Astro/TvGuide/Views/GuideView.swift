@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import G3GridView
 
 class GuideView: UIViewController {
 
