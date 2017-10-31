@@ -34,6 +34,13 @@
 		EB4AF0571FA870D9001B73D1 /* GuideProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AF0561FA870D9001B73D1 /* GuideProtocols.swift */; };
 		EB4AF05A1FA8773B001B73D1 /* ChannelListWireframeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AF0591FA8773B001B73D1 /* ChannelListWireframeTests.swift */; };
 		EB4AF05D1FA87B30001B73D1 /* GuideWireframeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AF05C1FA87B30001B73D1 /* GuideWireframeTests.swift */; };
+		EB4AF0601FA88426001B73D1 /* Slot.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AF05F1FA88426001B73D1 /* Slot.swift */; };
+		EB4AF06F1FA8A370001B73D1 /* GuideChannelGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AF06D1FA8A370001B73D1 /* GuideChannelGridCell.swift */; };
+		EB4AF0701FA8A370001B73D1 /* GuideChannelGridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB4AF06E1FA8A370001B73D1 /* GuideChannelGridCell.xib */; };
+		EB4AF0731FA8A465001B73D1 /* GuideEventGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AF0711FA8A465001B73D1 /* GuideEventGridCell.swift */; };
+		EB4AF0741FA8A465001B73D1 /* GuideEventGridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB4AF0721FA8A465001B73D1 /* GuideEventGridCell.xib */; };
+		EB4AF0771FA8A602001B73D1 /* GuideTimeGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4AF0751FA8A602001B73D1 /* GuideTimeGridCell.swift */; };
+		EB4AF0781FA8A602001B73D1 /* GuideTimeGridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB4AF0761FA8A602001B73D1 /* GuideTimeGridCell.xib */; };
 		EBD01B371FA844C8008C50EC /* ChannelListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD01B351FA844C8008C50EC /* ChannelListCell.swift */; };
 		EBD01B381FA844C8008C50EC /* ChannelListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBD01B361FA844C8008C50EC /* ChannelListCell.xib */; };
 		EBD01B3B1FA848A7008C50EC /* ChannelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD01B391FA848A7008C50EC /* ChannelListView.swift */; };
@@ -100,6 +107,13 @@
 		EB4AF0561FA870D9001B73D1 /* GuideProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideProtocols.swift; sourceTree = "<group>"; };
 		EB4AF0591FA8773B001B73D1 /* ChannelListWireframeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListWireframeTests.swift; sourceTree = "<group>"; };
 		EB4AF05C1FA87B30001B73D1 /* GuideWireframeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideWireframeTests.swift; sourceTree = "<group>"; };
+		EB4AF05F1FA88426001B73D1 /* Slot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slot.swift; sourceTree = "<group>"; };
+		EB4AF06D1FA8A370001B73D1 /* GuideChannelGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideChannelGridCell.swift; sourceTree = "<group>"; };
+		EB4AF06E1FA8A370001B73D1 /* GuideChannelGridCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuideChannelGridCell.xib; sourceTree = "<group>"; };
+		EB4AF0711FA8A465001B73D1 /* GuideEventGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideEventGridCell.swift; sourceTree = "<group>"; };
+		EB4AF0721FA8A465001B73D1 /* GuideEventGridCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuideEventGridCell.xib; sourceTree = "<group>"; };
+		EB4AF0751FA8A602001B73D1 /* GuideTimeGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideTimeGridCell.swift; sourceTree = "<group>"; };
+		EB4AF0761FA8A602001B73D1 /* GuideTimeGridCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuideTimeGridCell.xib; sourceTree = "<group>"; };
 		EBD01B351FA844C8008C50EC /* ChannelListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListCell.swift; sourceTree = "<group>"; };
 		EBD01B361FA844C8008C50EC /* ChannelListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChannelListCell.xib; sourceTree = "<group>"; };
 		EBD01B391FA848A7008C50EC /* ChannelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListView.swift; sourceTree = "<group>"; };
@@ -232,6 +246,7 @@
 				EB31C3101FA81F9E00D70A84 /* Channel+CoreDataProperties.swift */,
 				EB31C3121FA81FF600D70A84 /* ChannelModel.swift */,
 				EB4AF04A1FA86BE9001B73D1 /* ResponseModel.swift */,
+				EB4AF05F1FA88426001B73D1 /* Slot.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -305,6 +320,12 @@
 			children = (
 				EB4AF04F1FA87022001B73D1 /* GuideView.swift */,
 				EB4AF0501FA87022001B73D1 /* GuideView.xib */,
+				EB4AF06D1FA8A370001B73D1 /* GuideChannelGridCell.swift */,
+				EB4AF06E1FA8A370001B73D1 /* GuideChannelGridCell.xib */,
+				EB4AF0711FA8A465001B73D1 /* GuideEventGridCell.swift */,
+				EB4AF0721FA8A465001B73D1 /* GuideEventGridCell.xib */,
+				EB4AF0751FA8A602001B73D1 /* GuideTimeGridCell.swift */,
+				EB4AF0761FA8A602001B73D1 /* GuideTimeGridCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -522,9 +543,12 @@
 			files = (
 				EB31C2DF1FA80C5800D70A84 /* LaunchScreen.storyboard in Resources */,
 				EBD01B381FA844C8008C50EC /* ChannelListCell.xib in Resources */,
+				EB4AF0781FA8A602001B73D1 /* GuideTimeGridCell.xib in Resources */,
+				EB4AF0701FA8A370001B73D1 /* GuideChannelGridCell.xib in Resources */,
 				EB31C2DC1FA80C5800D70A84 /* Assets.xcassets in Resources */,
 				EB4AF0521FA87022001B73D1 /* GuideView.xib in Resources */,
 				EB31C2DA1FA80C5800D70A84 /* Main.storyboard in Resources */,
+				EB4AF0741FA8A465001B73D1 /* GuideEventGridCell.xib in Resources */,
 				EBD01B3C1FA848A7008C50EC /* ChannelListView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -696,16 +720,20 @@
 				EB31C30F1FA81EBC00D70A84 /* Channel.swift in Sources */,
 				EBD01B491FA85255008C50EC /* ChannelListLocalDataManager.swift in Sources */,
 				EBD01B451FA84FA8008C50EC /* ChannelListInteractor.swift in Sources */,
+				EB4AF0601FA88426001B73D1 /* Slot.swift in Sources */,
 				EBD01B371FA844C8008C50EC /* ChannelListCell.swift in Sources */,
 				EBD01B4C1FA85401008C50EC /* ChannelListRemoteDataManager.swift in Sources */,
 				EB31C3091FA81C8900D70A84 /* Astro.xcdatamodeld in Sources */,
 				EB31C2D51FA80C5800D70A84 /* AppDelegate.swift in Sources */,
+				EB4AF0731FA8A465001B73D1 /* GuideEventGridCell.swift in Sources */,
 				EBD01B421FA84BFF008C50EC /* ChannelListWireframe.swift in Sources */,
+				EB4AF0771FA8A602001B73D1 /* GuideTimeGridCell.swift in Sources */,
 				EB31C3111FA81F9E00D70A84 /* Channel+CoreDataProperties.swift in Sources */,
 				EB4AF0551FA87060001B73D1 /* GuideWireframe.swift in Sources */,
 				EB31C30D1FA81D9000D70A84 /* Endpoints.swift in Sources */,
 				EB31C3191FA82CB200D70A84 /* TabbarProtocols.swift in Sources */,
 				EBD01B3F1FA84B3F008C50EC /* ChannelListPresenter.swift in Sources */,
+				EB4AF06F1FA8A370001B73D1 /* GuideChannelGridCell.swift in Sources */,
 				EB4AF0571FA870D9001B73D1 /* GuideProtocols.swift in Sources */,
 				EB31C3131FA81FF600D70A84 /* ChannelModel.swift in Sources */,
 				EB4AF04B1FA86BE9001B73D1 /* ResponseModel.swift in Sources */,
