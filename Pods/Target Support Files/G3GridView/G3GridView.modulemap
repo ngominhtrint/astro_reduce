@@ -1,0 +1,6 @@
+framework module G3GridView {
+  umbrella header "G3GridView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -11,12 +11,21 @@
 		94E557D2E80C6AEC408A6F10 /* Pods_AstroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B945CA394A76EAA8FD3D086 /* Pods_AstroTests.framework */; };
 		B3A192CF0C6D6545E29E59A8 /* Pods_Astro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D12C995DCBF5517DF0FF7E /* Pods_Astro.framework */; };
 		EB31C2D51FA80C5800D70A84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31C2D41FA80C5800D70A84 /* AppDelegate.swift */; };
-		EB31C2D71FA80C5800D70A84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31C2D61FA80C5800D70A84 /* ViewController.swift */; };
 		EB31C2DA1FA80C5800D70A84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB31C2D81FA80C5800D70A84 /* Main.storyboard */; };
 		EB31C2DC1FA80C5800D70A84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB31C2DB1FA80C5800D70A84 /* Assets.xcassets */; };
 		EB31C2DF1FA80C5800D70A84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB31C2DD1FA80C5800D70A84 /* LaunchScreen.storyboard */; };
 		EB31C2EA1FA80C5900D70A84 /* AstroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31C2E91FA80C5900D70A84 /* AstroTests.swift */; };
 		EB31C2F51FA80C5900D70A84 /* AstroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31C2F41FA80C5900D70A84 /* AstroUITests.swift */; };
+		EB31C3061FA81C5600D70A84 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB31C3051FA81C5600D70A84 /* CoreData.framework */; };
+		EB31C3091FA81C8900D70A84 /* Astro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB31C3071FA81C8900D70A84 /* Astro.xcdatamodeld */; };
+		EB31C30B1FA81D7300D70A84 /* PersistenceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31C30A1FA81D7300D70A84 /* PersistenceError.swift */; };
+		EB31C30D1FA81D9000D70A84 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31C30C1FA81D9000D70A84 /* Endpoints.swift */; };
+		EB31C30F1FA81EBC00D70A84 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31C30E1FA81EBC00D70A84 /* Channel.swift */; };
+		EB31C3111FA81F9E00D70A84 /* Channel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31C3101FA81F9E00D70A84 /* Channel+CoreDataProperties.swift */; };
+		EB31C3131FA81FF600D70A84 /* ChannelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31C3121FA81FF600D70A84 /* ChannelModel.swift */; };
+		EB31C3151FA8221800D70A84 /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31C3141FA8221800D70A84 /* CoreDataStore.swift */; };
+		EB31C3191FA82CB200D70A84 /* TabbarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31C3181FA82CB200D70A84 /* TabbarProtocols.swift */; };
+		EB31C31C1FA82CFA00D70A84 /* TabbarWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31C31B1FA82CFA00D70A84 /* TabbarWireframe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +55,6 @@
 		9CC3BBA86F7A67B6395127C8 /* Pods-Astro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Astro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Astro/Pods-Astro.debug.xcconfig"; sourceTree = "<group>"; };
 		EB31C2D11FA80C5800D70A84 /* Astro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB31C2D41FA80C5800D70A84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB31C2D61FA80C5800D70A84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EB31C2D91FA80C5800D70A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB31C2DB1FA80C5800D70A84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB31C2DE1FA80C5800D70A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +65,16 @@
 		EB31C2F01FA80C5900D70A84 /* AstroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB31C2F41FA80C5900D70A84 /* AstroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroUITests.swift; sourceTree = "<group>"; };
 		EB31C2F61FA80C5900D70A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB31C3051FA81C5600D70A84 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EB31C3081FA81C8900D70A84 /* Astro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Astro.xcdatamodel; sourceTree = "<group>"; };
+		EB31C30A1FA81D7300D70A84 /* PersistenceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceError.swift; sourceTree = "<group>"; };
+		EB31C30C1FA81D9000D70A84 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		EB31C30E1FA81EBC00D70A84 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		EB31C3101FA81F9E00D70A84 /* Channel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Channel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EB31C3121FA81FF600D70A84 /* ChannelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelModel.swift; sourceTree = "<group>"; };
+		EB31C3141FA8221800D70A84 /* CoreDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStore.swift; sourceTree = "<group>"; };
+		EB31C3181FA82CB200D70A84 /* TabbarProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarProtocols.swift; sourceTree = "<group>"; };
+		EB31C31B1FA82CFA00D70A84 /* TabbarWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarWireframe.swift; sourceTree = "<group>"; };
 		EE009D3C7980778883295819 /* Pods-AstroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstroUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AstroUITests/Pods-AstroUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FDD0E2ED5E5215A5E2AB4DC7 /* Pods-AstroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstroTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AstroTests/Pods-AstroTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB31C3061FA81C5600D70A84 /* CoreData.framework in Frameworks */,
 				B3A192CF0C6D6545E29E59A8 /* Pods_Astro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -127,12 +146,17 @@
 		EB31C2D31FA80C5800D70A84 /* Astro */ = {
 			isa = PBXGroup;
 			children = (
+				EB31C3021FA8191500D70A84 /* Common */,
+				EB31C3031FA8192200D70A84 /* Entities */,
+				EB31C31D1FA82F9D00D70A84 /* ChannelList */,
+				EB31C3161FA82C8D00D70A84 /* Tabbar */,
 				EB31C2D41FA80C5800D70A84 /* AppDelegate.swift */,
-				EB31C2D61FA80C5800D70A84 /* ViewController.swift */,
-				EB31C2D81FA80C5800D70A84 /* Main.storyboard */,
+				EB31C3141FA8221800D70A84 /* CoreDataStore.swift */,
 				EB31C2DB1FA80C5800D70A84 /* Assets.xcassets */,
 				EB31C2DD1FA80C5800D70A84 /* LaunchScreen.storyboard */,
+				EB31C2D81FA80C5800D70A84 /* Main.storyboard */,
 				EB31C2E01FA80C5800D70A84 /* Info.plist */,
+				EB31C3071FA81C8900D70A84 /* Astro.xcdatamodeld */,
 			);
 			path = Astro;
 			sourceTree = "<group>";
@@ -155,9 +179,69 @@
 			path = AstroUITests;
 			sourceTree = "<group>";
 		};
+		EB31C3021FA8191500D70A84 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EB31C30A1FA81D7300D70A84 /* PersistenceError.swift */,
+				EB31C30C1FA81D9000D70A84 /* Endpoints.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		EB31C3031FA8192200D70A84 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				EB31C30E1FA81EBC00D70A84 /* Channel.swift */,
+				EB31C3101FA81F9E00D70A84 /* Channel+CoreDataProperties.swift */,
+				EB31C3121FA81FF600D70A84 /* ChannelModel.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		EB31C3161FA82C8D00D70A84 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				EB31C31A1FA82CE300D70A84 /* Wireframe */,
+				EB31C3171FA82C9D00D70A84 /* Protocols */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		EB31C3171FA82C9D00D70A84 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EB31C3181FA82CB200D70A84 /* TabbarProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		EB31C31A1FA82CE300D70A84 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				EB31C31B1FA82CFA00D70A84 /* TabbarWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		EB31C31D1FA82F9D00D70A84 /* ChannelList */ = {
+			isa = PBXGroup;
+			children = (
+				EB31C31E1FA82FB800D70A84 /* Protocols */,
+			);
+			path = ChannelList;
+			sourceTree = "<group>";
+		};
+		EB31C31E1FA82FB800D70A84 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		FC3A74EFD042451A980F49CC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EB31C3051FA81C5600D70A84 /* CoreData.framework */,
 				53D12C995DCBF5517DF0FF7E /* Pods_Astro.framework */,
 				0B945CA394A76EAA8FD3D086 /* Pods_AstroTests.framework */,
 				828337F619A946F80221D1ED /* Pods_AstroUITests.framework */,
@@ -446,8 +530,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB31C2D71FA80C5800D70A84 /* ViewController.swift in Sources */,
+				EB31C31C1FA82CFA00D70A84 /* TabbarWireframe.swift in Sources */,
+				EB31C3151FA8221800D70A84 /* CoreDataStore.swift in Sources */,
+				EB31C30B1FA81D7300D70A84 /* PersistenceError.swift in Sources */,
+				EB31C30F1FA81EBC00D70A84 /* Channel.swift in Sources */,
+				EB31C3091FA81C8900D70A84 /* Astro.xcdatamodeld in Sources */,
 				EB31C2D51FA80C5800D70A84 /* AppDelegate.swift in Sources */,
+				EB31C3111FA81F9E00D70A84 /* Channel+CoreDataProperties.swift in Sources */,
+				EB31C30D1FA81D9000D70A84 /* Endpoints.swift in Sources */,
+				EB31C3191FA82CB200D70A84 /* TabbarProtocols.swift in Sources */,
+				EB31C3131FA81FF600D70A84 /* ChannelModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -745,6 +837,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EB31C3071FA81C8900D70A84 /* Astro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EB31C3081FA81C8900D70A84 /* Astro.xcdatamodel */,
+			);
+			currentVersion = EB31C3081FA81C8900D70A84 /* Astro.xcdatamodel */;
+			path = Astro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EB31C2C91FA80C5800D70A84 /* Project object */;
 }
